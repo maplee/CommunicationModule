@@ -1,0 +1,41 @@
+apply plugin: 'com.android.library'
+def getModuleVersion(){
+    return String.valueOf(MODULE_VERSION)
+}
+
+android {
+    compileSdkVersion 26
+    def pkg="communication"
+    def verName = getModuleVersion()
+
+
+    defaultConfig {
+        minSdkVersion 18
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        archivesBaseName = "${pkg}-${verName}"
+
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    if("true".equals(UPLOAD)){
+        implementation 'com.android.support:appcompat-v7:26.1.0'
+    }else{
+        compileOnly 'com.android.support:appcompat-v7:26.1.0'
+    }
+}

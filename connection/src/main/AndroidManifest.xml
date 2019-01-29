@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.matt.connection" >
+
+    <application>
+        <provider
+            android:authorities="com.matt.connection${applicationId}"
+            android:name=".inner.PipeProvider"
+            android:enabled="true"
+            android:exported="true"/>
+    </application>
+</manifest>
