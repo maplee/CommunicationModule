@@ -15,7 +15,7 @@ ConnectionApi.install(new IPipe() {
 
             @Override
             public void result(String data) {
-                //TODO 在这里把订单状态信息data返回给H5
+                //TODO 在这里处理消息
             }
 
             @Override
