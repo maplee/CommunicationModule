@@ -1,6 +1,27 @@
 # CommunicationModule
 应用间通信，无需root
 
+添加仓库
+
+```
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven {url 'https://raw.github.com/maplee/mvn-repo/master'}
+    }
+}
+
+```
+
+添加依赖
+
+```
+implementation 'com.matt.module:communication:1.0.0'
+
+```
+
+
 需要通信的两个或多个app都集成该模块
 
 ## 初始化
