@@ -9,7 +9,7 @@ public interface Constant {
     String DATA = "data";
     String SOURCE = "source";
 
-    String AUTHORITY = "com.inno72.connection";
+    String AUTHORITY = "com.matt.connection";
     String QUERY = "c_query";
     String UPDATE = "c_update";
 

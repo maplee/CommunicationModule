@@ -32,6 +32,8 @@ android {
 
 }
 
+apply from: './push.gradle'
+
 dependencies {
     if("true".equals(UPLOAD)){
         implementation 'com.android.support:appcompat-v7:26.1.0'

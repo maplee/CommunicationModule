@@ -4,12 +4,13 @@ import android.app.Application;
 import android.content.Context;
 import android.util.Log;
 
-import com.inno72.connection.openapi.ConnectionApi;
-import com.inno72.connection.openapi.IPipe;
+import com.matt.connection.openapi.ConnectionApi;
+import com.matt.connection.openapi.IPipe;
+
 
 /**
  * Author:Created by jiaguofeng on 2018/7/18.
- * Email:jiaguofeng@inno72.com
+ * Email:jiagfone@163.com
  */
 
 public class SampleApplication extends Application {

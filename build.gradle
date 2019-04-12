@@ -19,7 +19,7 @@ allprojects {
     repositories {
         google()
         jcenter()
-        maven {url 'https://nexus.72solo.com/repository/maven-public/'}
+        maven {url 'https://raw.github.com/maplee/mvn-repo/master'}
     }
 }
 

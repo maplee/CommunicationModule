@@ -36,4 +36,4 @@
     public static final ** CREATOR;
 }
 
--keep class com.inno72.connection.openapi.** { public *; }
+-keep class com.matt.connection.openapi.** { public *; }

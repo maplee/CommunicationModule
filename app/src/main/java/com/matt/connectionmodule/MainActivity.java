@@ -1,10 +1,11 @@
 package com.matt.connectionmodule;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.inno72.connection.openapi.ConnectionApi;
+import com.matt.connection.openapi.ConnectionApi;
+
 
 public class MainActivity extends AppCompatActivity {
 
