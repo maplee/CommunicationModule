@@ -17,7 +17,7 @@ allprojects {
 添加依赖
 
 ```
-implementation 'com.matt.module:communication:1.0.0'
+implementation 'com.matt.module:communication:1.0.2'
 
 ```
 
